@@ -1,0 +1,195 @@
+body{
+    padding-top: 5%;
+    background-color: #F2F2F2;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.daftarpic{
+    width:40%;
+    position:absolute;
+    top:-5%;
+    left:-5px;
+}
+.banner{
+    width: 30%;
+    height: 100%;
+}
+.motto{
+    text-align: center;
+    font-family:'Aharoni','Verdana';
+    color: #b3ccff;
+    font-weight: bold;
+}
+.logintext{
+    font-family: Consolas;
+    font-size:20px;
+    margin-left:8%;
+}
+.imgcenter {
+    width:45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon{
+    width: 30px;
+    height:30px;
+    padding-left:7%;
+}
+.btn{
+		width: 20%;
+		height: 8.5%;
+		border-radius: 25px;
+		outline: none;
+		border: none;
+		background-image: linear-gradient(to right,#21618c, #2e86c1, #21618c);
+		background-size: 200%;
+		font-size: 1.2rem;
+		color: #fff;
+		font-family: 'Lato', sans-serif;
+		text-transform: uppercase;
+		cursor: pointer;
+		transition: .5s;
+}
+.btn:hover{
+	background-position: right;
+}
+.btn2 {
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 26px;
+border: none;
+cursor: pointer;
+width: 90%;
+font-size:20px;
+}
+.btn2:hover {
+opacity: 0.8;
+}
+.btn3 {
+    border-radius:15px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    font-size:20px;
+    }
+    .btn3:hover {
+      opacity: 0.8;
+      }
+.fa-arrow-circle-left{
+    position:absolute;
+    margin-top:-3%;
+    right:54%;
+    font-size:50px;
+}
+.fa-arrow-circle-left:hover{
+    cursor:pointer;
+    opacity:0.7;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-left: 40%;
+}
+input[type=text], input[type=password], input[type=tel], select {
+width: 90%;
+padding: 12px 20px;
+margin: 8px 26px;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+font-size:16px;
+}
+.imgcontainer {
+text-align: center;
+margin: 24px 0 12px 0;
+position: relative;
+}
+.peranan {
+    width: 125px;
+    height:125px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 17%;
+}
+.avatar {
+width: 150px;
+height:150px;
+border-radius: 50%;
+}
+input[type="radio"]{
+    display: none;
+}
+label {
+    cursor: pointer;
+    filter: grayscale(100%);
+  }
+  
+label:hover {
+    filter: grayscale(0);
+  }
+input[type="radio"]:checked + label {
+    filter: grayscale(0);
+  }
+.daftar{
+    font-family: 'Lato', sans-serif;
+    color: #a6a6a6;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    padding-left: 4.5%;
+}
+.daftar2{
+    font-family: 'Lato', sans-serif;
+    color: #a6a6a6;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    padding: 0;
+    margin: auto;
+}
+.modal {
+display:none;
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+background-color: #fefefe;
+margin: 4% auto 15% auto;
+border: 1px solid #888;
+width: 40%;
+padding-bottom: 30px;
+}
+.close {
+position: absolute;
+right: 25px;
+top: 0;
+color: #000;
+font-size: 35px;
+font-weight: bold;
+}
+.close:hover,.close:focus {
+color: red;
+cursor: pointer;
+}
+.animate {
+animation: zoom 0.6s
+}
+@keyframes zoom {
+from {transform: scale(0)}
+to {transform: scale(1)}
+}
